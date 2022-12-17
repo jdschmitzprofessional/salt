@@ -1,5 +1,5 @@
 
 ssh-is-enabled:
   service.running:
-    - enabled: True
+    - enable: True
     - name: ssh
